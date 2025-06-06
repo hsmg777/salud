@@ -2,6 +2,7 @@
 <!DOCTYPE application SYSTEM "dtds/application.dtd">
 
 <application name="salud">
+
 	<default-module>
 		<controller name="Typical"/>
 	</default-module>
@@ -10,13 +11,31 @@
   		<model name="Paciente"/>
 		<controller name="Typical"/>
 	</module>
+
 	<module name="Medico">
   		<model name="Medico"/>
 		<controller name="Typical"/>
 	</module>
+
 	<module name="Cita">
   		<model name="Cita"/>
 		<controller name="Typical"/>
+	</module>
+
+	<module name="HistorialClinico">
+		<model name="HistorialClinico"/>
+		<controller name="Typical"/>
+	</module>
+
+	<module name="Usuario">
+		<model name="Usuario"/>
+		<controller name="Typical"/>
+	</module>
+	
+	<module name="Backup">
+		<model name="Backup"/>
+		<controller name="Typical"/>
+		<controller name="Backup"/> 
 	</module>
 
 </application>

@@ -20,8 +20,8 @@
 			<groupId>org.openxava</groupId>
 			<artifactId>openxava</artifactId>
 			<version>${openxava.version}</version>
-		</dependency>
-		
+		</dependency>		
+
 		<!-- 
 		Para acceder a tu base de datos descomenta la entrada correspondiente 
 		de las dependencias de abajo. Si no encuentras la tuya, busca en

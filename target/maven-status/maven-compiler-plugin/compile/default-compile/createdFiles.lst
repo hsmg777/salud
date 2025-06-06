@@ -1,8 +1,13 @@
 com\salud\salud\modelo\Medico$Estado.class
+com\salud\salud\accion\GenerarBackupAction.class
 com\salud\salud\modelo\Cita.class
+com\salud\salud\modelo\HistorialClinico.class
 com\salud\salud\modelo\Cita$Estado.class
 com\salud\salud\modelo\TuPrimeraEntidad.class
+com\salud\salud\modelo\Backup.class
 com\salud\salud\run\salud.class
 com\salud\salud\modelo\Paciente$Estado.class
+com\salud\salud\modelo\Usuario.class
 com\salud\salud\modelo\Paciente.class
 com\salud\salud\modelo\Medico.class
+com\salud\salud\modelo\Usuario$Rol.class
