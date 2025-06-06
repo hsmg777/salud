@@ -10,4 +10,13 @@
   		<model name="Paciente"/>
 		<controller name="Typical"/>
 	</module>
+	<module name="Medico">
+  		<model name="Medico"/>
+		<controller name="Typical"/>
+	</module>
+	<module name="Cita">
+  		<model name="Cita"/>
+		<controller name="Typical"/>
+	</module>
+
 </application>
