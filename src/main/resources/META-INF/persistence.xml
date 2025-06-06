@@ -11,26 +11,24 @@
 		<class>org.openxava.session.GalleryImage</class>
 		<class>org.openxava.web.editors.DiscussionComment</class>
 		<class>com.openxava.naviox.model.ConfigurationRecord</class>
-		<class>com.openxava.naviox.model.Folder</class>
-		<class>com.openxava.naviox.model.History</class>
-		<class>com.openxava.naviox.model.Module</class>
-		<class>com.openxava.naviox.model.ModuleRights</class>
-		<class>com.openxava.naviox.model.Organization</class>
-		<class>com.openxava.naviox.model.Role</class>
-		<class>com.openxava.naviox.model.SessionRecord</class>
-		<class>com.openxava.naviox.model.SSORecord</class>
-		<class>com.openxava.naviox.model.User</class>
 		<class>com.openxava.naviox.model.LDAPConfiguration</class>
 
+
+		<class>com.salud.salud.modelo.Paciente</class>
+		
+		
 		<properties>
-			<property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-			<property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/saluddb?useSSL=false&amp;serverTimezone=UTC"/>
-			<property name="jakarta.persistence.jdbc.user" value="root"/>
-			<property name="jakarta.persistence.jdbc.password" value="tu_clave_mysql"/>
-			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
-		</properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/saluddb?useSSL=false&amp;serverTimezone=UTC"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="Mamifer_1"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+
+
 	</persistence-unit>
+
 
                     
     <!-- JUnit Hypersonic -->

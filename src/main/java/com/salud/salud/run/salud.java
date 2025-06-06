@@ -11,7 +11,7 @@ import org.openxava.util.*;
 public class salud {
 
 	public static void main(String[] args) throws Exception {
-		DBServer.start("salud-db"); // Para usar tu propia base de datos comenta esta línea y configura src/main/webapp/META-INF/context.xml
+		//DBServer.start("salud-db"); // Para usar tu propia base de datos comenta esta línea y configura src/main/webapp/META-INF/context.xml
 		AppServer.run("salud"); // Usa AppServer.run("") para funcionar en el contexto raíz
 	}
 

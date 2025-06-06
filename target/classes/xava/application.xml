@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE application SYSTEM "dtds/application.dtd">
+
+<application name="salud">
+	<default-module>
+		<controller name="Typical"/>
+	</default-module>
+
+	<module name="Paciente">
+  		<model name="Paciente"/>
+		<controller name="Typical"/>
+	</module>
+</application>

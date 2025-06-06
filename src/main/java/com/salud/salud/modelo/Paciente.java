@@ -5,12 +5,13 @@ import org.openxava.annotations.*;
 import java.time.LocalDate;
 
 @Entity
-@View(members = 
+@View(name="DEFAULT", members = 
     "nombres, apellidos; " +
     "cedula, fechaNacimiento; " +
     "telefono, email; " +
     "direccion, estado"
 )
+@Tab(properties="nombres, apellidos, cedula, telefono, direccion, email, fechaNacimiento, estado")
 public class Paciente {
 
     @Id
@@ -47,7 +48,6 @@ public class Paciente {
     public enum Estado {
         Activo, Inactivo
     }
-
     // Getters y Setters
 
     public Long getId() { return id; }
