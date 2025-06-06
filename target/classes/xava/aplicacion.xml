@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+
+<!DOCTYPE aplicacion SYSTEM "dtds/aplicacion.dtd">
+
+<aplicacion nombre="salud"> 
+	
+	<modulo-defecto>		  
+		<controlador nombre="Typical"/>		
+	</modulo-defecto>
+	
+	<modulo nombre="Paciente">
+		<modelo nombre="Paciente"/>
+	</modulo>
+	
+</aplicacion>
