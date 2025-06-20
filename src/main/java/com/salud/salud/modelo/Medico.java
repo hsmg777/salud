@@ -1,5 +1,4 @@
 package com.salud.salud.modelo;
-
 import javax.persistence.*;
 import org.openxava.annotations.*;
 
@@ -72,5 +71,20 @@ public class Medico {
 
     public Estado getEstado() { return estado; }
     public void setEstado(Estado estado) { this.estado = estado; }
-    
+
+
+    public boolean estaDisponibleParaCita(Cita cita) {
+        if (this.estado == Estado.Activo) {
+            if (cita.getEspecialidad() != null && cita.getEspecialidad().equalsIgnoreCase(this.especialidad)) {
+                if (cita.getFecha() != null && cita.getFecha().isAfter(java.time.LocalDate.now())) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
+
+    
+

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+
+<!DOCTYPE controllers SYSTEM "dtds/controllers.dtd">
+
+<controllers>
+
+    <controller name="Backup">
+        <action name="generarBackup"
+            class="com.salud.salud.accion.GenerarBackupAction"
+            icon="save"
+            keystroke="Ctrl B"/>
+    </controller>
+
+    <controller name="MedicoDisponible">
+        <action name="verDisponibilidad"
+            class="com.salud.salud.accion.VerificarDisponibilidadMedico"
+            label="Verificar disponibilidad"
+            icon="zoom"
+            keystroke="Ctrl D"/>
+    </controller>
+
+</controllers>

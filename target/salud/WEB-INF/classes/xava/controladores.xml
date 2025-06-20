@@ -21,6 +21,18 @@ https://github.com/openxava/openxava/blob/master/openxavatest/src/main/resources
             icon="save"
             keystroke="Ctrl B"/>
     </controlador>
+
+        
+    <controller name="MedicoDisponible">
+        <action name="verDisponibilidad"
+            class="com.salud.salud.accion.VerificarDisponibilidadMedico"
+            label="Verificar disponibilidad"
+            icon="zoom"
+            keystroke="Ctrl D"/>
+    </controller>
+
+
+
     
     <!-- Variable de entorno: 
     <var-entorno nombre="salud_ANYO_DEFECTO" valor="2015"/>

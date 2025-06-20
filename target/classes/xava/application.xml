@@ -12,11 +12,6 @@
 		<controller name="Typical"/>
 	</module>
 
-	<module name="Medico">
-  		<model name="Medico"/>
-		<controller name="Typical"/>
-	</module>
-
 	<module name="Cita">
   		<model name="Cita"/>
 		<controller name="Typical"/>
@@ -26,16 +21,18 @@
 		<model name="HistorialClinico"/>
 		<controller name="Typical"/>
 	</module>
-
-	<module name="Usuario">
-		<model name="Usuario"/>
-		<controller name="Typical"/>
-	</module>
 	
 	<module name="Backup">
 		<model name="Backup"/>
 		<controller name="Typical"/>
 		<controller name="Backup"/> 
 	</module>
+
+	<module name="Medico">
+		<model name="Medico"/>
+		<controller name="Typical"/>
+		<controller name="MedicoDisponible"/> 
+	</module>
+
 
 </application>
